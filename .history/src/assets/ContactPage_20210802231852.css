@@ -1,0 +1,37 @@
+.contact-form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.contact-form input {
+    width: 48%;
+    margin: 0 0 20px 0;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #c8c8c8;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    width: 48%;
+    margin: 0 0 20px 0;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #c8c8c8;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.country-list {
+    padding: 0;
+    list-style: none;
+}
