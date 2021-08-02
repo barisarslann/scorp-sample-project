@@ -1,0 +1,26 @@
+<template>
+    <div class="modal">
+        <div class="modal-content">
+            <div class="modal__login">
+                <span class="modal__close-button" @click="$emit('status:close')">x</span>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+import {useStore} from 'vuex'
+
+export default ({
+    emits: [
+        'status:close'
+    ],
+    setup() {
+        const store = useStore();
+    },
+})
+</script>
+
+<style>
+
+</style>
