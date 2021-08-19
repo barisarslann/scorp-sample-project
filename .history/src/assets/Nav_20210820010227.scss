@@ -1,0 +1,61 @@
+.desktop-header {
+    border-bottom: 2px solid #aaaaaa5c;
+    padding: 20px 0 10px 0!important;
+    margin-bottom: 30px;
+    
+    .header__left-area {
+        display: flex;
+        align-items: center;
+    }
+    .header__right-area {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+
+.header__login-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.header__login-button img {
+    width: 30px;
+}
+
+
+
+.header__left-area h2 {
+    margin: 0 0 12px 30px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: #b71c1cd1;
+    transition: 0.5s;
+}
+
+.router-link-active {
+    color: #b71c1c
+}
+
+.locale-changer {
+    margin-right: 30px;
+}
+
+.locale-changer select {
+    padding: 3px 5px;
+    border: 1px solid #00000063;
+}
+
+.locale-changer select:focus {
+    outline: none;
+}

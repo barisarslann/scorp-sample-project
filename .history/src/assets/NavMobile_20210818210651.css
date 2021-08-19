@@ -1,0 +1,17 @@
+.mobile-header {
+    display: none;
+    background: #ccc;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    position: fixed;
+}
+
+
+@media (max-width: 992px) {
+    .mobile-header {
+        display: flex!important;
+    }
+}

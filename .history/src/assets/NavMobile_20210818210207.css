@@ -1,0 +1,11 @@
+.mobile-header {
+    display: none;
+    background: #ccc;
+}
+
+
+@media (max-width: 992px) {
+    .mobile-header {
+        display: block!important;
+    }
+}
