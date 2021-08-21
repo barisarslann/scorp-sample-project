@@ -1,4 +1,9 @@
-# scorp-project
+# Vue Sample Project
+
+### Install npm package
+```
+npm install
+```
 
 ### Compiles for development
 ```
